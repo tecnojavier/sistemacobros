@@ -1,0 +1,60 @@
+.container {
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.imagenes {
+  text-align: center;
+}
+
+.container-cabeza {
+  background-color: #320000;
+  color: white;
+}
+
+.navbar-toggler-icon {
+  background-color: white;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.nav-link {
+  color: white;
+}
+
+.tarjetas {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.telefono,
+.whatsapp,
+.correo {
+  flex: 1;
+  text-align: center;
+}
+
+.derechos {
+  text-align: center;
+}
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 100%;
+  }
+}

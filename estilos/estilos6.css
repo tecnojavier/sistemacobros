@@ -1,0 +1,81 @@
+.boton2 {
+  background-color: blue;
+  color: white;
+}
+
+.boton3 {
+  background-color: green;
+  color: white;
+}
+
+.boton1 {
+  background-color: red;
+  color: white;
+}
+
+.container {
+  max-width: 500px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.login {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.registro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.botones-principales {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.boton2,
+.boton3 {
+  flex-grow: 1;
+  margin-bottom: 10px;
+}
+
+.boton1 {
+  flex-grow: 1;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 992px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+  .botones-principales {
+    flex-wrap: nowrap;
+  }
+  .boton2,
+  .boton3 {
+    margin-right: 10px;
+    margin-bottom: 0;
+  }
+}

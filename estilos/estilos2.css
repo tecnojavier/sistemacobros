@@ -1,0 +1,162 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.container,
+.container-segundo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Estilos para el formulario */
+.formulario {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.login {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.padre,
+.padre-segundo {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.principal {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.nombre,
+.apellidos,
+.direccion,
+.dui,
+.concepto,
+.fecha,
+.monto,
+.meses,
+.registro,
+.cancelar,
+.siguiente,
+.actualizar,
+.usuario,
+.contrasena,
+.login {
+  display: grid;
+  gap: 5px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"] {
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+.boton-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.boton-container3 {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.boton,
+.boton2 .boton3,
+.boton4,
+.boton5 {
+  flex-grow: 1;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.boton2 {
+  background-color: rgb(255, 0, 0);
+}
+
+.boton3 {
+  background-color: greenyellow;
+}
+
+.boton4 {
+  background-color: orange;
+}
+
+.boton5 {
+  background-color: rgb(84, 84, 186);
+}
+
+/* Estilos responsive */
+@media (max-width: 768px) {
+  .padre {
+    grid-template-columns: 1fr;
+  }
+
+  .principal {
+    grid-template-columns: 1fr;
+  }
+
+  .formulario {
+    width: 100%;
+  }
+
+  .login {
+    width: 100%;
+  }
+
+  .boton-container {
+    flex-direction: column;
+  }
+
+  .boton-container2 {
+    flex-direction: column;
+  }
+
+  .boton-container3 {
+    flex-direction: column;
+  }
+}

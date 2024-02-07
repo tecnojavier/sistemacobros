@@ -1,0 +1,38 @@
+.cell {
+    padding: 3px;
+    margin: 3px;
+  }
+  
+  .tabla-cobros {
+    overflow-x: auto;
+  }
+  
+  .tabla-cobros table {
+    width: 100%;
+    white-space: nowrap;
+  }
+  
+  .tabla-cobros th,
+  .tabla-cobros td {
+    text-align: center;
+  }
+  
+  .imagenes {
+    text-align: center;
+  }
+  
+  .credenciales {
+    background-color: #320000;
+    color: white;
+  }
+  
+  .credenciales a {
+    color: #ffffff;
+  }
+  
+  .credenciales img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+  

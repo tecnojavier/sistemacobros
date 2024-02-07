@@ -1,0 +1,52 @@
+.alerta {
+  text-align: center;
+  color: red;
+}
+
+.success {
+  text-align: center;
+  color: greenyellow;
+}
+
+.bg-info {
+  background-color: #17a2b8;
+  color: #ffffff;
+}
+
+.cell {
+  padding: 3px;
+  margin: 3px;
+}
+
+.tabla-registros {
+  overflow-x: auto;
+}
+
+.tabla-registros table {
+  width: 100%;
+  white-space: nowrap;
+}
+
+.tabla-registros th,
+.tabla-registros td {
+  text-align: center;
+}
+
+.imagenes {
+  text-align: center;
+}
+
+.credenciales {
+  background-color: #320000;
+  color: white;
+}
+
+.credenciales a {
+  color: #ffffff;
+}
+
+.credenciales img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+}
